@@ -1,9 +1,32 @@
-# Car Damage Classification with CNN  
-This project implements convolutional neural networks (CNN) to classify car damages into four categories: back part of the car, car windows, front part of the car, and right/left side of the car. The models are trained and evaluated using TensorFlow/Keras on a custom dataset of vehicle images.  
+# Car Damage Classification with CNN
 
-The dataset is not included due to size limitations. You should download or prepare your dataset with the following folder structure inside `dataset/`:  
-`dataset/train/`, `dataset/val/`, and `dataset/test/` folders, each containing subfolders named after classes (`back_part_car`, `car_windows`, `front_part_car`, `right_left_side_car`), with images inside.  
+This project uses Convolutional Neural Networks (CNN) to classify car damages into four categories:
+- Back part of the car  
+- Car windows  
+- Front part of the car  
+- Right/Left side of the car  
 
-Required Python packages are TensorFlow, NumPy, Pandas, Matplotlib, Seaborn, and scikit-learn. Install them with:  
-```bash  
-pip install tensorflow numpy pandas matplotlib seaborn scikit-learn  
+The models are developed and evaluated using TensorFlow/Keras on a custom dataset of vehicle images.
+
+## Dataset
+
+Due to size limitations, the dataset is **not included** in this repository.  
+You should prepare or download your dataset organized in the following folder structure inside a `dataset/` directory:
+Each subfolder should contain corresponding images for that class.
+
+## Requirements
+
+This project requires the following Python packages:
+
+- TensorFlow  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- scikit-learn  
+
+Install all dependencies using:
+
+```bash
+pip install tensorflow numpy pandas matplotlib seaborn scikit-learn
+
